@@ -5,6 +5,5 @@
 int AppEntry(char*)
 {
 	Game game;
-	game.Run();
-	return 0;
+	return game.Start() ? 0 : 1;
 }
