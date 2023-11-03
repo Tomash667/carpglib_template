@@ -2,7 +2,7 @@
 #include <AppEntry.h>
 #include "Game.h"
 
-int AppEntry(char*)
+int AppEntry(cstring)
 {
 	Game game;
 	return game.Start() ? 0 : 1;
